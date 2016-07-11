@@ -6227,7 +6227,7 @@ body {
 }
 
 a {
-    color: #01afd1
+    color: #00a2d4
 }
 
 img {
@@ -6328,8 +6328,8 @@ figure {
 }
 
 .btn.btn-primary {
-    border: 1px #01afd1 solid;
-    background: #01afd1;
+    border: 1px #00a2d4 solid;
+    background: #00a2d4;
     box-shadow: 0 0 0 0em rgba(64, 172, 119, 0.3)
 }
 
@@ -6403,7 +6403,7 @@ figure {
 
 .action:before {
     font-size: 2rem;
-    color: #01afd1;
+    color: #00a2d4;
     display: block;
     line-height: 1
 }
@@ -6488,8 +6488,8 @@ figure {
 }
 
 .no-touch .btn.btn-primary {
-    border: 1px #01afd1 solid;
-    background: #01afd1;
+    border: 1px #00a2d4 solid;
+    background: #00a2d4;
     box-shadow: 0 0 0 0em rgba(64, 172, 119, 0.3)
 }
 
@@ -6648,7 +6648,7 @@ figure {
 
 .chosen-container .chosen-results li.highlighted {
     border-radius: 0.375em;
-    background-color: #01afd1;
+    background-color: #00a2d4;
     color: #fff
 }
 
@@ -6764,7 +6764,7 @@ figure {
 }
 
 .chosen-container-active .chosen-single {
-    border-color: #01afd1;
+    border-color: #00a2d4;
     box-shadow: 0 0 0 0.25em rgba(64, 172, 119, 0.3)
 }
 
@@ -6819,7 +6819,7 @@ figure {
 
 [data-pie-id] > * :nth-child(5n + 3), [data-bar-id] > * :nth-child(5n + 3),
 [data-line-id] > * :nth-child(5n + 3) {
-    color: #01afd1
+    color: #00a2d4
 }
 
 [data-pie-id] > * :nth-child(5n + 4), [data-bar-id] > * :nth-child(5n + 4),
@@ -6860,7 +6860,7 @@ ul[data-pie-id] {
     position: fixed;
     top: 0px;
     left: 0px;
-    background: #01afd1;
+    background: #00a2d4;
     z-index: 100;
     width: 100%;
     height: 0.25em
@@ -6931,7 +6931,7 @@ fieldset:after {
 .input-money input[type="date"]:focus + label, .input-money input[type="datetime"]:focus + label,
 .input-money input[type="datetime-local"]:focus + label, .input-money input[type="month"]:focus + label,
 .input-money input[type="time"]:focus + label, .input-money input[type="week"]:focus + label {
-    color: #01afd1
+    color: #00a2d4
 }
 
 input[type="email"], input[type="number"], input[type="password"],
@@ -6970,7 +6970,7 @@ input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus,
 select:focus, textarea:focus {
     outline-color: transparent;
     outline-style: none;
-    border-color: #01afd1;
+    border-color: #00a2d4;
     box-shadow: 0 0 0 0.25em rgba(64, 172, 119, 0.3), inset 0 0.25rem 0 0 rgba(0, 0, 0, 0.07)
 }
 
@@ -7005,7 +7005,7 @@ select {
 }
 
 select:focus {
-    color: #01afd1;
+    color: #00a2d4;
     background-image: url(/assets/svg/arrow-down-active-9e7db2d9205209770423590990f7b820.svg);
     box-shadow: 0 0 0 0.25em rgba(64, 172, 119, 0.3)
 }
@@ -7071,7 +7071,7 @@ input[type="search"] {
 .form-body h1, .form-body h2, .form-body h3, .form-body h4, .form-body h5,
 .form-header h1, .form-header h2, .form-header h3, .form-header h4, .form-header h5,
 .form-footer h1, .form-footer h2, .form-footer h3, .form-footer h4, .form-footer h5 {
-    color: #01afd1;
+    color: #00a2d4;
     margin: 0
 }
 
@@ -7404,7 +7404,7 @@ input[type="search"] {
 }
 
 .header-hero {
-    background: #01afd1 no-repeat;
+    background: #00a2d4 no-repeat;
     color: white;
     padding: 1em;
     height: 150vw;
@@ -7576,12 +7576,12 @@ input[type="search"] {
 .testimonial .quote-author h2 {
     margin-top: 1em;
     margin-bottom: 0;
-    color: #01afd1
+    color: #00a2d4
 }
 
 .testimonial .quote-author hr {
     border: 0;
-    border-bottom: 1px #01afd1 solid;
+    border-bottom: 1px #00a2d4 solid;
     width: 10%;
     margin: 0 auto
 }
@@ -7589,7 +7589,7 @@ input[type="search"] {
 .testimonial .quote-author h5 {
     margin-top: 0.5em;
     margin-bottom: 1em;
-    color: #01afd1;
+    color: #00a2d4;
     font-family: "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif
 }
 
@@ -7616,7 +7616,7 @@ input[type="search"] {
 }
 
 .screenshots #slide1:checked ~ .slide-control label:nth-child(1) {
-    color: #01afd1
+    color: #00a2d4
 }
 
 .screenshots #slide1:checked ~ .screenshot-captions .caption:nth-child(1) {
@@ -7629,7 +7629,7 @@ input[type="search"] {
 }
 
 .screenshots #slide2:checked ~ .slide-control label:nth-child(2) {
-    color: #01afd1
+    color: #00a2d4
 }
 
 .screenshots #slide2:checked ~ .screenshot-captions .caption:nth-child(2) {
@@ -7642,7 +7642,7 @@ input[type="search"] {
 }
 
 .screenshots #slide3:checked ~ .slide-control label:nth-child(3) {
-    color: #01afd1
+    color: #00a2d4
 }
 
 .screenshots #slide3:checked ~ .screenshot-captions .caption:nth-child(3) {
@@ -7795,7 +7795,7 @@ input[type="search"] {
 .offers .bang {
     display: table;
     position: relative;
-    background: #01afd1;
+    background: #00a2d4;
     color: white;
     width: 15em;
     height: 15em;
@@ -8426,7 +8426,7 @@ input[type="search"] {
 }
 
 .body_invite_requests_new .form-header, .body_invite_requests_create .form-header {
-    background: #01afd1;
+    background: #00a2d4;
     color: white;
     border-bottom: 0
 }
@@ -9259,7 +9259,7 @@ input[type="search"] {
 }
 
 .account-fauxdal .form-header {
-    background: #01afd1;
+    background: #00a2d4;
     text-align: center;
     padding: 1em 2em
 }
@@ -9493,7 +9493,7 @@ input[type="search"] {
 }
 
 .high {
-    color: #01afd1
+    color: #00a2d4
 }
 
 .category-tag {
@@ -9761,7 +9761,7 @@ input[type="search"] {
     .application-nav .mini-logo {
         position: relative;
         display: block;
-        background-color: #01afd1;
+        background-color: #00a2d4;
         color: white;
         font-family: "Avenir-Black", "HelveticaNeue-Bold", "sans-serif";
         text-align: center;
@@ -9802,11 +9802,11 @@ input[type="search"] {
 }
 
 .body_recipes ul li a.nav-recipe:before {
-    color: #01afd1
+    color: #00a2d4
 }
 
 .body_inventory_items ul li a.nav-inventory:before {
-    color: #01afd1
+    color: #00a2d4
 }
 
 
