@@ -380,14 +380,14 @@ figure {
 }
 
 .btn.btn-dark {
-    border: 1px #333333 solid;
-    background: #333333;
+    border: 1px #00a2d4 solid;
+    background: #00a2d4;
     box-shadow: 0 0 0 0em rgba(51, 51, 51, 0.3)
 }
 
 .btn.btn-dark:focus, .btn.btn-dark:hover {
-    background: #383838;
-    border-color: #383838;
+    background: #999999;
+    border-color: #999999;
     box-shadow: 0 0 0 0.2em rgba(51, 51, 51, 0.4)
 }
 
@@ -1432,7 +1432,7 @@ input[type="search"] {
 }
 
 .header-hero {
-    background: #666666 no-repeat;
+    background: #444444 no-repeat;
     color: white;
     padding: 1em;
     height: 150vw;
@@ -1601,8 +1601,8 @@ input[type="search"] {
     text-align: center
 }
 
-.testimonial .quote-author h2 {
-    margin-top: 1em;
+.testimonial .quote-author h4 {
+    margin-top: 0.5em;
     margin-bottom: 0;
     color: #00a2d4
 }
@@ -1614,15 +1614,15 @@ input[type="search"] {
     margin: 0 auto
 }
 
-.testimonial .quote-author h5 {
-    margin-top: 0.5em;
-    margin-bottom: 1em;
+.testimonial .quote-author h6 {
+    margin-top: 0;
+    margin-bottom: 0;
     color: #00a2d4;
     font-family: "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif
 }
 
 .testimonial img {
-    max-width: 33%
+    max-width: 20%;
 }
 
 .testimonial figcaption {
@@ -1918,7 +1918,7 @@ input[type="search"] {
 
 @media (min-width: 48em) {
     .site-footer {
-        padding: 4em 0
+        padding: 2em 0
     }
 
     .site-footer .new_invite_request .form-signup {
