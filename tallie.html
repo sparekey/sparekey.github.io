@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tallie Expense Report Software | Tallie</title>
+	<meta charset="utf-8"><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"a12bfa5d24","applicationID":"3119488","transactionName":"ZQdbNkdUDRIFBRBdDlxNfQ1BewYVJwkKQBNdDlUHRxorDgkDS10PVgdB","queueTime":0,"applicationTime":39,"ttGuid":"3B9C26C0C87E27B4","agent":""}</script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(u(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(2),u=t(3),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","finished","addToTrace","inlineHit"],p="api-",l=p+"ixn-";a(s,function(t,e){f[e]=o(p+e,!0,"api")}),f.addPageAction=o(p+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){d[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],2:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],3:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?u(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var s=f[m[n]];return s&&s.push([w,n,r,i]),i}function p(t,e){g[t]=l(t).concat(e)}function l(t){return g[t]||[]}function d(t){return s[t]=s[t]||o(n)}function v(t,e){c(t,function(t,n){e=e||"feature",m[n]=e,e in f||(f[e]=[])})}var g={},m={},w={on:p,emit:n,get:d,listeners:l,context:e,buffer:v};return w}function i(){return new r}var a="nr@context",u=t("gos"),c=t(2),f={},s={},p=e.exports=o();p.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!h++){var t=y.info=NREUM.info,e=s.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(m,function(e,n){t[e]||(t[e]=n)});var n="https"===g.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=t("handle"),c=t(2),f=window,s=f.document,p="addEventListener",l="attachEvent",d=f.XMLHttpRequest,v=d&&d.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:d,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(1);var g=""+location,m={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-963.min.js"},w=d&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:g,features:{},xhrWrappable:w};s[p]?(s[p]("DOMContentLoaded",i,!1),f[p]("load",r,!1)):(s[l]("onreadystatechange",o),f[l]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+	<meta content="IE=9; IE=8; IE=7; IE=EDGE; chrome=1">
+	<meta name="description" content="Tallie is the accounting profession&#39;s #1 expense report solution. Tallie is comprehensive, cloud-based expense report software that is designed by CPAs for CPAs." />
+	<meta name="keywords" content="tallie,expense report management,expense report automation, expense reports, simplify expense management, expense, report, automation, management, software, solution, engineered, powerful,easy to use,simple, bill pay, accounting, approval, process, control, data, collection, integration, compliance, policy, comprehensive, cloud based, " />
+	<meta name="viewport" content="initial-scale=1,user-scalable=yes,maximum-scale=1,width=device-width">
+	<link rel="SHORTCUT ICON" href="/Content/img/Tallie.ico">
+	<link rel="stylesheet" href="assets/tallie.css">
+	<script type="text/javascript">
+		window.onload = function() {
+			if (jQuery('body').css('color') !== 'rgb(51, 51, 51)') {
+				jQuery('head').prepend('<link rel="stylesheet" href="~/Content/css/bootstrap3/bootstrap.min.css">');
+			}
+		};
+	</script>
+<link href="/Content/bundles/_Layout3.min.css?4ab66f" rel="stylesheet" />	
+	<link href="/Content/bundles/Index.min.css?4ab66f" rel="stylesheet" />
+
+	<script type="text/javascript">
+		if (typeof window.s === "undefined") { window.s = {}; }
+		if (typeof window.en === "undefined") { window.en = {}; }
+	</script>
+	<!--[if lte IE 9]>
+		<script src="/Content/bundles/_Layout.ie.min.js?4ab66f" type="text/javascript"></script>
+	<![endif]-->
+		<script type="text/javascript" src="assets/modernizer.js"></script>
+	<script type="text/javascript">if(!window.ko){document.write(unescape("%3Cscript src='/Content/js/libs/modernizr-2.6.2.min.js' type='text/javascript'%3E%3C/script%3E"));}</script>
+
+	
+
+<script type="text/javascript">
+	var _rollbarParams = {
+		"level": "error",
+		"server.environment": "Production",
+	};
+	_rollbarParams["notifier.snippet_version"] = "2"; var _rollbar=["304bab2777d8468280be880a4993050c", _rollbarParams]; var _ratchet=_rollbar;
+	(function(w,d){w.onerror=function(e,u,l){_rollbar.push({_t:'uncaught',e:e,u:u,l:l});};var i=function(){var s=d.createElement("script");var
+	f=d.getElementsByTagName("script")[0];s.src="//d37gvrvc0wt4s1.cloudfront.net/js/1/rollbar.min.js";s.async=!0;
+	f.parentNode.insertBefore(s,f);};if(w.addEventListener){w.addEventListener("load",i,!1);}else{w.attachEvent("onload",i);}})(window,document);
+</script>
+
+	
+
+
+<script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
+typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);
+b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
+mixpanel.init("cd3d24f5b27756bbcc4a1d7b4ef57f1a");
+</script>
+	
+
+	<script type="text/javascript" src="//cdn.optimizely.com/js/381742305.js"></script>
+
+
+</head>
+
+<body id="top" class="">
+	
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WNTQC4"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WNTQC4');</script>
+<!-- End Google Tag Manager -->
+
+	<!--[if lte IE 9]>
+		<div class="ie-wrap">
+	<![endif]-->
+
+
+<section id="desktop-view" class="home-section hidden-xs hidden-sm main-nav navbar-wrap">
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<a id="logo" class="navbar-brand" href="/expense-report-software" title="Tallie">Tallie</a>
+				<div id="navbar">
+				<ul class="nav navbar-nav pull-right">
+					<li class="nav-items">
+						<a class="nav-link hidden-xs" href="/learn-how-employees-use-tallie-expense-report-software"
+						data-bind="css: { active: s.HeaderLink == en.HeaderLinks.Product }" id="product-btn-header">
+						Product
+						</a>
+					</li>
+					<li class="nav-items">
+						<a class="nav-link hidden-xs" href="/expense-report-automation-software-pricing-and-specifications"
+						data-bind="css: { active: s.HeaderLink == en.HeaderLinks.Details }" id="pricing-btn-header">
+						Pricing &amp; Specs
+						</a>
+					</li>
+					<li class="nav-items dropdown hidden-xs">
+						<a href="/business-software-integration" class="nav-link dropdown-toggle hidden-xs"
+						data-bind="css: { active: s.HeaderLink == en.HeaderLinks.Integrations }"
+						id="integrations-btn-header">
+						Integrations</a>
+						<ul class="dropdown-menu hidden-xs hidden-sm">
+							<li><a href="/intacct-expense-report-software">Intacct</a><li>
+							<li><a href="/quickbooks-desktop-expense-report-software">QuickBooks Desktop</a><li>
+							<li><a href="/quickbooks-online-expense-report-software">QuickBooks Online</a><li>
+							<li><a href="/xero-expense-report-software">Xero</a><li>
+							<li class="last"><a href="/billdotcom-expense-report-software">Bill.com</a><li>
+						</ul>
+					</li>
+					<li class="nav-items">
+						<a class="nav-link last hidden-xs" href="//usetallie.com/sso"
+						id="signin-btn-header">Client Login </a>
+					</li>
+
+						<li class="nav-items">
+							<a href="/free-trial-begin-expense-reports" class="btn btn-cta btn-large pull-right" 
+							rel="nofollow" title="Tallie - Try Tallie Free" id="stickynav-jointallie-btn"
+							data-action="go-free-trial">
+								Try Tallie Free
+							</a>
+						</li>
+				</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+</section>
+
+<section id="mobile-view" class="home-section main-nav stickynav mobile visible-xs visible-sm">
+	<div class="navbar-wrap">
+		<div class="navbar navbar-fixed-top navbar-default" id="navbar">
+			<div class="container">
+				<div class="navbar-header">
+					<a id="mobile-logo" class="navbar-brand" href="/expense-report-software" title="Tallie">
+						Tallie
+					</a>
+					<div class="navbar-right">
+						<div class="nav-menu-stack" data-action="toggle-mobile-links"></div>
+
+						<a id="mobile-stickynav-signin-btn" class="sso-link nav-link"
+							href="//usetallie.com/sso" rel="nofollow"
+							title="Tallie - Sign in">
+							Client Login
+						</a>
+					</div>
+				</div>
+				<div class="container hidden mobile-link-container"
+					data-bind="css: { hidden: MobileLinksHidden() }">
+					<div class="row">
+						<div class="mobile-links">
+							<a class="inline-link" href="/learn-how-employees-use-tallie-expense-report-software"
+							id="mobile-stickynav-product-tour-btn">
+								Product
+							</a>
+
+							<a class="inline-link" id="mobile-stickynav-pricing-btn"
+							href="/expense-report-automation-software-pricing-and-specifications" title="Tallie Pricing &amp; Specs">
+								Pricing &amp; Specs
+							</a>
+
+							<a class="inline-link" id="mobile-stickynav-integrations-btn"
+							href="/business-software-integration" title="Integrations">
+								Integrations
+							</a>
+
+								<a class="inline-link bold" id="mobile-stickynav-jointallie-btn"
+								href="/free-trial-begin-expense-reports" rel="nofollow"
+								title="Tallie - Try Tallie Free">
+									Try Tallie Free
+								</a>
+						</div>
+						<div class="mobile-links">
+							<a class="inline-link" id="mobile-stickynav-iphone-btn" title="Tallie iPhone App"
+							target="_blank" rel="nofollow"
+							href="https://itunes.apple.com/us/app/tallie/id570070764?ls=1&amp;mt=8">
+								iPhone &amp; iPad App
+							</a>
+							<a class="inline-link" id="mobile-stickynav-android-btn" title="Tallie Android App"
+							target="_blank" rel="nofollow"
+							href="https://play.google.com/store/apps/details?id=com.springahead.mobile.android">
+								Android App
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+	
+
+
+<div id="RealHome">
+	<section class="module-1 home-splash">
+		<div class="receipt-flurry"></div>
+		<div class="splash container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1>Tallie Expense Report Software</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-md-5">
+
+					<p class="spash-content">
+						The accounting profession's #1 expense report solution. Tallie is comprehensive, cloud-based expense
+						report software that is designed by CPAs for CPAs.
+					</p>
+					<div class="col-xs-12 col-md-6">
+						<request-demo-lightbox-form></request-demo-lightbox-form>
+					</div>
+
+				</div>
+				<div class="col-xs-12 col-md-7 hidden-xs hidden-sm">
+					<img class="home-splash-image" src="/Content/img/home/Tallie-Web-Mobile-1.5x.png"
+					alt="Tallie Web and Mobile Expense Report Solution"
+					title="Tallie Web and Mobile Expense Report Solution" />
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="module-2 awarded bg-gray">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h2>Tallie is the choice of experts</h2>
+					<p>
+						Accounting firms count on Tallie to improve the productivity of their people and their clients. Click on a logo to learn
+						more:
+					</p>
+					<ul class="plain-list">
+						<li>
+							<a class="award-logo-link"
+								href="//blog.tallie.com/hogantaylor-deploys-tallie-as-expense-report-software-solution"
+								target="_blank">
+								<img src="/Content/img/ThirdParty/hogan-taylor-logo.png"
+								alt="Hogan Taylor" title="Hogan Taylor" />
+							</a>
+						</li>
+						<li>
+							<a class="award-logo-link"
+								href="//blog.tallie.com/mcgladrey-selects-tallie-expense-management/"
+								target="_blank">
+								<img src="/Content/img/ThirdParty/rsm-logo.png"
+								alt="RSM" title="RSM" /></a>
+						</li>
+						<li>
+							<a class="award-logo-link"
+								href="//blog.tallie.com/moss-adams-selects-tallie-as-expense-management-solution/"
+								target="_blank">
+								<img src="/Content/img/ThirdParty/moss-adams-logo.png"
+								alt="Moss Adams" title="Moss Adams" /></a>
+						</li>
+						<li>
+							<a class="award-logo-link"
+								href="//www.businesswire.com/news/home/20150323005165/en/Tallie-Selected-HR-Block-Small-Business-Exclusive#.VSWfIlzFv-Y"
+								target="_blank">
+								<img src="/Content/img/ThirdParty/h-and-r-block-logo.png"
+								alt="H&amp;R Block" title="H&amp;R Block" /></a>
+						</li>
+						<li>
+							<a class="award-logo-link"
+								href="//blog.tallie.com/supporting-strategies-selects-tallie-as-preferred-expense-manangement-solution/"
+								target="_blank">
+								<img src="/Content/img/ThirdParty/supporting-strategies-logo.png"
+								alt="Supporting Strategies" title="Supporting Strategies" /></a>
+						</li>
+						<li>
+							<a class="award-logo-link" href="//www.woodard.com/network"
+								target="_blank">
+								<img src="/Content/img/ThirdParty/woodard.png" alt="Woodard" title="Woodard" />
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="module-3">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-lg-4">
+					<h3>Direct Integrations</h3>
+					<div class="home-integrations-sprite"></div>
+					<p>
+						Tallie ensures the seamless transfer of data between key systems, including: Accounting, Payroll, Bill Payment, Travel and
+						Practice Management.
+					</p>
+					<a class="link" href="/business-software-integration" id="peerless-integrations-link">Explore Tallie's Integrations
+					</a>
+				</div>
+				<div class="col-xs-12 col-lg-4">
+					<h3>Immediate ROI</h3>
+					<div class="home-integrations-sprite advance"></div>
+					<p>
+						With Tallie, your price is based on what you use so you always have a positive ROI. Coupled with Tallie's award-winning
+						service, you get the absolute lowest cost of ownership.
+					</p>
+					<a class="link"
+						href="//blog.tallie.com/are-you-prepared-for-the-future-of-accounting-automation-expense-reports/"
+						id="immediate-roi-link">Prep for accounting's future</a>
+				</div>
+				<div class="col-xs-12 col-lg-4">
+					<h3>Trusted by CPAs</h3>
+					<div class="home-integrations-sprite trusted"></div>
+					<p>
+						Top tier accounting firms such as RSM (formerly McGladrey), Moss Adams &amp; Rehmann have adopted Tallie
+						expense reports as part of their outsourced accounting software stacks. These partnerships help Tallie
+						understand and exceed industry expectations.
+					</p>
+					<a class="link" href="/media-relations" id="media-relations-link">See the latest news from tallie</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="module-4 bg-blue js-free-trial-scroll-target" id="free-trial">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h2 class="">Sign up for a free 14-day business trial.</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-lg-6">
+					<h3>Our clients report an average of 67% time savings over spreadsheet expense reports. Try Tallie and improve your productivity.
+					</h3>
+					<p class="fine-print">
+						Our free trial includes the full expense report feature set. At any time during your trial, you will have full access to
+						our award-winning Product Expert team.
+					</p>
+					<a href="/learn-how-employees-use-tallie-expense-report-software" class="btn-text col-xs-12 hidden-xs hidden-sm"
+					id="how-tallie-works-link">How Tallie Works
+					</a>
+					<a href="/expense-report-automation-software-pricing-and-specifications" class="btn-text col-xs-12 hidden-xs hidden-sm"
+					id="pricing-specs-link">Pricing &amp; Specs
+					</a>
+				</div>
+				<div class="col-xs-12 col-lg-5 col-lg-offset-1">
+					<free-trial-form></free-trial-form>
+					<div class="hidden-md hidden-lg" id="about-links">
+						<a href="/learn-how-employees-use-tallie-expense-report-software" class="btn-text col-xs-12 col-md-6">How Tallie Works
+						</a>
+						<a href="/expense-report-automation-software-pricing-and-specifications" class="btn-text col-xs-12 col-md-6">Pricing &amp; Specs
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</div>
+
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-1">
+				<a id="footer-logo" href="/expense-report-software" title="Tallie - Home">Tallie</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-2">
+				<ul>
+					<li class="footer-header">About Us
+					</li>
+					<li>
+						<a id="about-btn-footer" href="/our-story" title="Tallie">
+							Our Story
+						</a>
+					</li>
+					<li>
+						<a id="blog-btn-footer" href="//blog.tallie.com" title="Tallie Blog">
+							Blog
+						</a>
+					</li>
+					<li>
+						<a id="apply-btn-footer" href="/contact#careers-form"
+						title="Apply for a Job">
+							Apply for a Job
+						</a>
+					</li>
+					<li>
+						<a id="media-btn-footer" href="/media-relations" title="Tallie">
+							Media + Investors
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-2">
+				<ul>
+					<li class="footer-header">Learn More
+					</li>
+					<li>
+						<a id="freetrial-btn-footer"href="/free-trial-begin-expense-reports"
+						title="Start a Free Trial">
+							Start a Free Trial
+						</a>
+					</li>
+
+					<li>
+						<a id="product-btn-footer"href="/learn-how-employees-use-tallie-expense-report-software"
+						title="Product">
+							Product
+						</a>
+					</li>
+					<li>
+						<a id="resource-btn-footer"href="/expense-report-resource-room"
+						title="Tallie Resource Room">
+							Resource Room
+						</a>
+					</li>
+					<li>
+						<a id="specs-btn-footer" href="/expense-report-automation-software-pricing-and-specifications"
+						title="Tallie Pricing &amp; Specs">
+							Pricing &amp; Specs
+						</a>
+					</li>
+					<li>
+						<a id="request-demo-btn-footer"href="/request-demo"
+						title="Request a Demo">
+							Request a Demo
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-2">
+				<ul>
+					<li class="footer-header">
+						Ecosystem
+					</li>
+
+					<li>
+						<a id="integrations-btn-footer" href="/business-software-integration"
+						title="Tallie Integrations">
+							Integrations
+						</a>
+					</li>
+					<li>
+						<a id="affiliates-btn-footer" href="/expense-report-automation-affiliates-and-partners"
+						title="Tallie Affiliates &amp; Partners">
+							Partners
+						</a>
+					</li>
+					<li>
+						<a href="/bpo-expense-report-management" title="BPO Advisor Program">
+							BPO Advisor Program
+						</a>
+					</li>
+					<li>
+						<a href="/key-program-expense-report-services" title="Tallie Key Program">
+							Tallie Key Program
+						</a>
+					</li>
+					<li>
+						<a href="/pex-visa-expense-management" title="PEX Card + Tallie">
+							PEX Card + Tallie
+						</a>
+					</li>
+						<li>
+							<a href="/cpe-credit-expense-report-software" title="Earn CPE Credit">
+								Earn CPE Credit
+							</a>
+						</li>
+				</ul>
+			</div>
+			<div class="col-sm-2">
+				<ul>
+					<li class="footer-header">Support
+					</li>
+					<li>
+						<a id="support-btn-footer" href="//support.usetallie.com"
+						title="Tallie Support">
+							Support
+						</a>
+					</li>
+					<li>
+						<a id="contact-btn-footer" href="/contact" title="Contact Tallie">
+							Contact Us
+						</a>
+					</li>
+					<li>
+						<a id="sitemap-btn-footer" title="Tallie Sitemap" href="/sitemap">
+							Sitemap
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-3 col-sm-offset-1 store-icons">
+					<a id="iphone-btn-footer" title="Tallie iPhone App" target="_blank" rel="nofollow"
+					href="https://itunes.apple.com/us/app/tallie/id570070764?ls=1&amp;mt=8">
+						<img id="app-store" src="/Content/img/Tallie-AppStore-30PX.png" />
+					</a>
+					<a id="android-btn-footer" rel="nofollow" title="Tallie Android App" target="_blank"
+					href="https://play.google.com/store/apps/details?id=com.springahead.mobile.android">
+						<img class="play-store" src="/Content/img/Tallie-GooglePlay-30PX.png" />
+					</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-9">
+				<p class="footer-inc">
+					<a href="//springahead.com">&copy; 2016 SpringAhead, Inc.</a>
+					<span class="address">525 Second Street, San Francisco, CA 94107</span>
+					<a href="tel:+18005925144">
+						+1.800.592.5144
+					</a>
+					<span class="version">&nbsp;v 10.16.774 (0)</span>
+				</p>
+			</div>
+			<div class="col-sm-3">
+				<a id="signin-btn-footer" class="btn btn-smallround btn-hollow-white"
+				href="//usetallie.com/sso" rel="nofollow"
+				title="Tallie - Sign in to Tallie">
+					Client Login
+				</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-7">
+				<p class="footer-inc">
+					Tallie simplifies expense reports and the expense management process, from point of purchase all the way through accounting and reimbursement. With powerful integrations with leading accounting &amp; bill pay solutions such as QuickBooks Online, QuickBooks Desktop, Xero, Intacct and Bill.com, Tallie delivers precise control over approval processes and policy compliance.
+				</p>
+			</div>
+			<div class="col-sm-3 col-sm-offset-2">
+				<ul id="footer-right">
+					<li class="privacy-footer">
+						<a id="privacy-btn-footer" href="/automated-expense-reports-privacy-policy" title="Tallie Privacy Policy">
+							Privacy Policy
+						</a>
+						<a id="terms-btn-footer"href="/terms" title="Tallie Terms of Service">
+							Terms of Service
+						</a>
+					</li>
+					<li>
+						<a class="social-button facebook" href="//www.facebook.com/TallieBySpringAhead"
+						title="facebook">
+							<img src="/Content/img/Tallie-Facebook.png" />
+						</a>
+						<a class="social-button twitter" href="//twitter.com/UseTallie" title="twitter">
+							<img src="/Content/img/Tallie-Twitter.png" />
+						</a>
+						<a class="social-button linkedin" href="//www.linkedin.com/company/tallie" title="linkedin">
+							<img src="/Content/img/Tallie-LinkedIn.png" />
+						</a>
+						<a class="social-button google" href="//plus.google.com/+Tallie" title="Google+">
+							<img src="/Content/img/Tallie-GooglePlus.png" />
+						</a>
+						<a class="social-button youtube" href="//www.youtube.com/user/usetallie" title="YouTube">
+							<img src="/Content/img/Tallie-YouTube.png" />
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+</footer>
+<div class="background-wrap">
+	<div class="background"></div>
+</div>
+	<!--[if lte IE 9]>
+		</div>
+	<![endif]-->
+
+	
+	
+
+
+<script type="text/javascript">
+
+
+
+
+	s.URL = {
+		SendCareerContactForm: '/email/careers',
+		SendPrContactForm: '/email/pr',
+		SupportForm: 'https://support.usetallie.com/customer/portal/emails/new',
+		SignUpUri: '//usetallie.com/sso/Account/CreateTrial',
+		ResendWelcomeEmail: '//usetallie.com/sso/Account/ReSendWelcomeEmail',
+		AuditeurAffiliate: '/auditeur/affiliate',
+		AuditeurBpoPartner: '/auditeur/bpopartner',
+		AuditeurContactSales: '/auditeur/contactsales',
+		AuditeurCpeCourse: '/auditeur/cpecourse',
+		AuditeurJoinKeyProgram: '/auditeur/joinkeyprogram',
+		AuditeurRequestDemo: '/auditeur/requestdemo',
+		AuditeurResourceRoom: '/auditeur/resourceroom',
+		ThankYouContactSales: '/contact#sales-form-thank-you',
+		ThankYouFreeTrial: '/free-trial-expense-reports-thank-you',
+		ThankYouRequestDemo: '/request-demo-thank-you'
+	};
+
+	s.HTML = {
+		FileAttached: 'File attached',
+		StartFreeTrialSubmit: 'Start my 14-day free trial',
+		StartFreeTrialSubmitLoading: 'Please wait, creating your account',
+		VerificationEmailSuccess: "Verification email sent",
+		VerificationEmailError: "Error sending verification email."
+	};
+
+	en.FieldValidation = {
+		PhoneNumber: {
+			pattern: {
+				params: /^[-0-9 ().+ext]+$/, //Allows for - , Numbers 0-9, Spaces, () and any combination of e, x, and t
+				message: "Please enter a valid phone number"
+			},
+			maxLength: 50
+		}
+	};
+
+
+/* Auditeur & AdWords data */
+
+	en.Auditeur = {
+		SourcePage: {
+			BDC: "Bill.com",
+			BPO: "BPO",
+			CPE: "CPE Credit",
+			Integrations: "Integrations",
+			Intacct: "Intacct",
+			KeyProgram: "Key Program",
+			PEX: "PEX",
+			Quickbooks: "QuickBooks",
+			QuickbooksDesktop: "QuickBooks Desktop",
+			QuickbooksOnline: "QuickBooks Online",
+			Xero: "Xero",
+			Product: ""
+
+		},
+		ChannelDetail: {
+			Affiliate: "Affiliate",
+			CPE: "CPE Credit",
+			ContactSales: "Contact Sales",
+			FreeTrial: "Free Trial",
+			Integrations: "Integrations",
+			ProductDemo: "Product Demo",
+			Programs: "Programs",
+			ResourceRoom: "Resource Room"
+		},
+		ProductDemo: {
+			Yes: "Yes",
+			No: "No"
+		}
+	};
+
+	/* Mixpanel data */
+	en.Mixpanel = {
+		Event: {
+			PageView: "Usetallie Page View",
+			View: "Usetallie Click", // depreciated
+			Click: "Usetallie Click",
+			FollowMobile: "Usetallie Click Mobile",
+			PlayedVideo: "Usetallie Played Video",
+			SignIn: "Start: Sign In",
+			SignUp: "Start: Free Trial Sign Up",
+			SignUpSubmit: "Submit: Free Trial Sign Up",
+			SignUpSuccess: "Submit Success: Free Trial Sign Up",
+			RequestDemoSuccess: "Submit Success: Request Demo",
+			ResourceRoomSuccess: "Submit Success: Resource Room",
+			IntegrationsSuccess: "Submit Success: Integrations",
+			Contact: "Start: Contact",
+			ContactSubmit: "Submit: Contact",
+			ContactSuccess: "Submit Success: Contact",
+			AnimationComplete: "Animation Complete"
+		},
+		Target: {
+			Index: "Index page",
+			IndexMain: "Index page / Main view",
+			IndexInterface: "Index page / Interface view",
+			IndexEngineering: "Index page / Engineering view",
+			IndexControl: "Index page / Control view",
+			Product: "Product page",
+			Company: "Company page",
+			Vision: "Vision page",
+			Blog: "Blog",
+			iPhone: "iPhone",
+			Android: "Android",
+			Integrations: "Integrations page",
+			MediaRelations: "Media Relations page",
+			AffiliatesPartners: "Affiliates & Partners page",
+			PricingSpecs: "Pricing & Specs page",
+			Webinars: "Webinars page",
+			Support: "Support page",
+			PrivacyPolicy: "Privacy Policy page",
+			TermsOfService: "Terms of Service page",
+			FreeTrial: "Free Trial page",
+			Contact: "Contact page",
+			Video: "Video",
+			NA: "N/A",
+			Quickbooks: "Quickbooks",
+			Partner: "Partner",
+			PageNotFound: "404 page",
+			RequestDemo: "Request Demo",
+			KeyElite: "Key page / Elite",
+			KeyPremier: "Key page / Premier",
+			KeySelect: "Key page / Select",
+			KeyAddOn: "Key page / AddOn",
+			SignIn: "Sign In"
+		},
+		Contact: {
+			// Contact form targets
+			Sales: "Sales",
+			SalesAdditional: "Sales Additional Data",
+			Support: "Support",
+			PR: "PR",
+			Careers: "Careers"
+		}
+	};
+
+	/* career dropdowns */
+	en.Departments = {
+		name: "Department Of Interest",
+		values: [
+			{ id: "Sales", name: "Sales" },
+			{ id: "Support", name: "Support" },
+			{ id: "Finance", name: "Finance" },
+			{ id: "Marketing", name: "Marketing" },
+			{ id: "Design", name: "Design" },
+			{ id: "Engineering", name: "Engineering" },
+			{ id: "Operations", name: "Operations" }
+		]
+	};
+
+	/* sales dropdowns */
+	en.YourDepartment = {
+		name: "Your Department",
+		values: [
+			{ id: "Sales", name: "Sales" },
+			{ id: "Finance", name: "Finance" },
+			{ id: "Operations", name: "Operations" },
+			{ id: "IT", name: "IT" },
+			{ id: "Other", name: "Other" }
+		]
+	};
+
+	en.AccountingSystem = {
+		name: "Accounting Systems",
+		values: [
+			{ id: "QuickBooks for Windows", name: "QuickBooks for Windows" },
+			{ id: "QuickBooks Online Edition", name: "QuickBooks Online Edition" },
+			{ id: "Intacct", name: "Intacct" },
+			{ id: "Microsoft Dynamics GP", name: "Microsoft Dynamics GP" },
+			{ id: "NetSuite", name: "NetSuite" },
+			{ id: "Peachtree", name: "Peachtree" },
+			{ id: "Microsoft Office Accounting", name: "Microsoft Office Accounting" },
+			{ id: "Microsoft Money", name: "Microsoft Money" },
+			{ id: "Thomson Reuters CBS", name: "Thomson Reuters CBS" },
+			{ id: "Xero", name: "Xero" },
+			{ id: "I don't know", name: "I don't know" },
+			{ id: "Other", name: "Other" },
+		]
+	};
+
+	en.AdWords = {
+		ConversionId: "963471510",
+		Labels: {
+			FreeTrial: "EGOzCKae6lYQltG1ywM",
+			ProductDemo: "u3eICMuf6lYQltG1ywM"
+		}
+	};
+
+	en.Optimizely = {
+		Events: {
+			FreeTrialSignUp: "free_trial_sign_up",
+			RequestDemoSignUp: "request_demo_sign_up"
+		}
+	}
+
+	s.ValidationSettings = {
+		decorateElement: true,
+		insertMessages: false,
+		errorMessageClass: "field-validation-error",
+		errorElementClass: "input-validation-error",
+		grouping: {deep: true}
+	};
+
+	s.DefaultLeadNames = {
+		FreeTrial: {
+			firstName: "#FreeTrial",
+			lastName: "#FreeTrial"
+		}
+	}
+
+	s.Values = {
+		CPECourseTimes: [
+			"5/20/2015 8AM - 5:30PM",
+			"7/15/2015 8AM - 5:30PM",
+			"8/12/2015 8AM - 5:30PM",
+			"11/4/2015 8AM - 5:30PM"
+		]
+	}
+
+</script>
+
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript">
+		if(!window.jQuery){document.write(
+			unescape("%3Cscript src='/Content/js-libs/jquery/dist/jquery.min.js' " +
+			"type='text/javascript'%3E%3C/script%3E")
+		);}
+	</script>
+
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js"></script>
+	<script type="text/javascript">
+			if(!window.ko){document.write(
+				unescape("%3Cscript src='/Content/js-libs/knockout/dist/knockout.js' " +
+				"type='text/javascript'%3E%3C/script%3E")
+			);}
+	</script>
+
+<script src="/Content/bundles/_Layout3.min.js?4ab66f" type="text/javascript"></script>	
+	
+	<script src="/Content/bundles/Index.min.js?4ab66f" type="text/javascript"></script>
+	<script type="text/javascript">
+		s.PageTitle = en.Mixpanel.Target.Index;
+		$(document).ready(function () {
+			s.view = new s.IndexView();
+			ko.applyBindings(s.view);
+		});
+	</script>
+
+		<!-- Start of Async HubSpot Analytics Code -->
+	<script type="text/javascript">
+		(function(d, s, i, r) {
+			if (d.getElementById(i)) {
+				return;
+			}
+			var n = d.createElement(s), e = d.getElementsByTagName(s)[0];
+			n.id = i;
+			n.src = '//js.hs-analytics.net/analytics/' + (Math.ceil(new Date() / r) * r) + '/429178.js';
+			e.parentNode.insertBefore(n, e);
+		})(document, "script", "hs-analytics", 300000);
+	</script>
+	<!-- End of Async HubSpot Analytics Code -->
+
+	<script id="ft-component-template" type="text/html"><!-- ko template: {name: $component.templateToShow } -->
+<!-- /ko -->
+
+<div style="display: none">
+	<div id="ft-success-box">
+		<div id="thank-you-lightbox">
+	<h3 class="lightbox-headline">
+		Your Tallie account is ready!
+	</h3>
+	<h3 class="lightbox-message">
+		Please check your email
+		<br />
+		for the Tallie verification message
+	</h3>
+	<div class="text-center">
+		<!-- ko if: showResendVerification -->
+		<button class="btn btn-link body-copy" data-bind="click: resendVerificationEmail" type="button">
+			Resend Email
+		</button>
+		<!-- /ko -->
+		<!-- ko if: !showResendVerification() -->
+		<p class="body-copy" data-bind="text: VerificationMessage()">
+		</p>
+		<!-- /ko -->
+		<a href="//support.usetallie.com" title="Tallie Support"
+		data-button="Footer" onClick="s.mixpanel(this, en.Mixpanel.Event.Contact,
+		{target: en.Mixpanel.Target.Support});">Contact Tallie Support</a>
+	</div>
+</div>
+	</div>
+</div>
+</script>
+<script id="ft-tmpl" type="text/html"><form id="free-trial-form" class="clearfix">
+	<div class="row">
+		<span class="col-xs-12 col-md-6 pull-left input-wrap first">
+			<label class="ie-input-labels" for="FirstName">
+				First Name:
+			</label>
+			<input data-bind="value: FirstName, valueUpdate: 'input'" type="text" class="first-name col-xs-12 col-md-6"
+name="FirstName" placeholder="First Name">
+			<span data-bind="validationMessage: FirstName" class="field-validation-error" style="display: none"></span>
+		</span>
+		<span class="col-xs-12 col-md-6 input-wrap second">
+			<label class="ie-input-labels" for="LastName">
+				Last Name:
+			</label>
+			<input data-bind="value: LastName, valueUpdate: 'input'" type="text" class="last-name col-xs-12 col-md-6"
+name="LastName" placeholder="Last Name">
+			<span data-bind="validationMessage: LastName" class="field-validation-error" style="display: none"></span>
+		</span>
+	</div>
+	<div class="row">
+		<span class="col-xs-12 input-wrap last">
+			<label class="ie-input-labels" for="EmailAddress">
+				Work Email:
+			</label>
+			<input data-bind="value: EmailAddress, valueUpdate: 'input'" type="email" class="col-xs-12"
+			name="Email" placeholder="Work Email">
+			<span data-bind="validationMessage: EmailAddress" class="field-validation-error" style="display: none"></span>
+		</span>
+	</div>
+	<div class="form-horizontal check-row row" data-bind="css: { unchecked: !Tos() }, visible: ShowTos" 
+	style="display: none">
+		<div class="checkbox-wrapper">
+			<div class="checkbox-fancy" tabindex="0" data-bind="event: { keypress: toggleTos }">
+				<input type="checkbox" id="tos-checkbox" checked="checked" data-bind="checked: Tos, value: Tos"
+					data-qa="tos-checkbox" value="true"/>
+				<label class="checkbox-label" for="tos-checkbox"></label>
+			</div>
+		</div>
+		<p class="body-copy checkbox-copy">
+			I accept the Tallie <a class="terms inline-link" href="/terms"
+			title="Tallie Terms of Service" target="_blank"
+			onClick="s.mixpanel(this, en.Mixpanel.Event.View, {target: en.Mixpanel.Target.TermsOfService});">
+			Terms of Service</a>.
+		</p>
+	</div>
+	<div>
+		<button type="button" class="btn btn-large btn-cta btn-lime" data-bind="click: startFreeTrial, css: { disabled: !Tos() || SubmitLoading }, disable: !Tos() || SubmitLoading">
+			Submit
+		</button>
+	</div>
+</form></script>
+<script id="ft-success-tmpl" type="text/html"><section class="ft-response">
+	<p class="leading-body-copy">Your Tallie account is ready!</p>
+	<p class="body-copy bold">Check your email for the Tallie verification message</p>
+	<p class="body-copy">
+		<!-- ko if: showResendVerification -->
+		<button class="btn btn-link body-copy" data-bind="click: resendVerificationEmail" type="button">
+			Resend Email
+		</button>
+		<!-- /ko -->
+		<!-- ko if: !showResendVerification() -->
+		<span data-bind="text: VerificationMessage()">
+		</span>
+		<!-- /ko -->
+		<br />
+		<a href="//support.usetallie.com" title="Tallie Support"
+		data-button="Footer" onClick="s.mixpanel(this, en.Mixpanel.Event.Contact,
+		{target: en.Mixpanel.Target.Support});">Contact Tallie Support</a>
+	</p>
+</section></script>
+<script id="ft-error-tmpl" type="text/html"><section class="ft-response">
+	<h4>Uh Oh, Something Went Wrong</h4>
+	<p>
+		Get in touch with our Support Team via email at
+		<a href="mailto:support@usetallie.com">
+			support@usetallie.com
+		</a> or call us directly at
+		<a href="tel:+1.888.874.1118 ">
+			+1.888.874.1118 
+		</a>
+	</p>
+</section></script>
+<script id="ft-email-error-tmpl" type="text/html"><section class="ft-response">
+	<h4>Oops!</h4>
+	<p>Looks like the email was already used to create a Tallie account. Please try
+	<a class="inline-link" href="//usetallie.com/sso">logging in</a>.
+	<!-- ko if: showResendVerification -->
+	or <button class="btn btn-link body-copy inline-link" data-action="resend-verification" type="button">
+		resend verification email
+	</button>
+	<!-- /ko -->
+</section>
+</script>
+
+	<script id="rd-component-template" type="text/html"><!-- ko template: {name: $component.templateToShow } -->
+<!-- /ko --></script>
+<script id="rd-tmpl" type="text/html"><form>
+	<div class="row">
+		<span class="input-wrap first col-xs-6">
+			<label class="ie-input-labels" for="FirstName">
+				First Name:
+			</label>
+			<input data-bind="value: FirstName, valueUpdate: 'input'" type="text" class="first-name"
+name="FirstName" placeholder="First Name">
+			<span data-bind="validationMessage: FirstName" class="field-validation-error" style="display: none"></span>
+		</span>
+		<span class="input-wrap second col-xs-6">
+			<label class="ie-input-labels" for="LastName">
+				Last Name:
+			</label>
+			<input data-bind="value: LastName, valueUpdate: 'input'" type="text" class="last-name"
+name="LastName" placeholder="Last Name">
+			<span data-bind="validationMessage: LastName" class="field-validation-error" style="display: none"></span>
+		</span>
+	</div>
+	<div class="row">
+		<span class="input-wrap last col-xs-12">
+			<label class="ie-input-labels" for="EmailAddress">
+				Work Email:
+			</label>
+			<input data-bind="value: EmailAddress, valueUpdate: 'input'" type="email"
+name="Email" placeholder="Work Email">
+			<span data-bind="validationMessage: EmailAddress" class="field-validation-error" style="display: none"></span>
+		</span>
+	</div>
+	<div class="row">
+		<span class="input-wrap col-xs-12">
+			<label class="ie-input-labels" for="PhoneNumber">
+				Work Phone Number:
+			</label>
+			<input data-bind="value: PhoneNumber, valueUpdate: 'input'" type="tel"
+name="Phone" placeholder="Work Phone Number">
+			<span data-bind="validationMessage: PhoneNumber" class="field-validation-error" style="display: none"></span>
+		</span>
+	</div>
+	<div class="row">
+		<span class="input-wrap col-xs-12">
+			<label class="ie-input-labels" for="CompanyName">
+				Company Name:
+			</label>
+			<input data-bind="value: CompanyName, valueUpdate: 'input'" type="text"
+name="CompanyName" placeholder="Company Name">
+			<span data-bind="validationMessage: CompanyName" class="field-validation-error" style="display: none"></span>
+		</span>
+	</div>
+	<div>
+		<button type="button" class="btn btn-large btn-cta btn-lime" data-bind="click: requestDemo">
+			Submit
+		</button>
+	</div>
+</form></script>
+<script id="rd-success-tmpl" type="text/html"><h2>
+	Thank you!
+</h2>
+<p>
+	A Tallie Expert will be in touch with you shortly.
+</p>
+</script>
+<script id="rd-error-tmpl" type="text/html"><h2>Uh Oh, Something Went Wrong</h2>
+<p>
+	Get in touch with our Support Team via email at
+	<a href="mailto:support@usetallie.com">
+		support@usetallie.com
+	</a> or call us directly at
+	<a href="tel:+1.888.874.1118 ">
+		+1.888.874.1118 
+	</a>
+</p></script>
+
+	<script id="rd-lb-component-template" type="text/html"><a class="btn btn-large btn-cta"
+data-bind="click: $component.showDemoLightbox">Schedule a Demo</a>
+<div style="display: none">
+	<div id="data">
+		<!-- ko template: {name: $component.lightboxTemplateToShow } -->
+		<!-- /ko -->
+	</div>
+</div></script>
+<script id="rd-lb-tmpl" type="text/html"><form>
+	<div class="row">
+		<h3 class="col-xs-12 col-sm-8 col-sm-offset-2 lightbox-headline">
+			Contact a Tallie Rep for a full product walkthrough
+		</h3>
+	</div>
+	<div class="row">
+		<span class="col-xs-12 col-sm-4 col-sm-offset-2 pull-left input-wrap first">
+			<label class="ie-input-labels" for="FirstName">
+				First Name:
+			</label>
+			<input data-bind="value: FirstName, valueUpdate: 'input'" type="text" class="form-control"
+name="FirstName" placeholder="First Name">
+			<span data-bind="validationMessage: FirstName" class="field-validation-error" style="display: none"></span>
+		</span>
+		<span class="col-xs-12 col-sm-4 input-wrap second">
+			<label class="ie-input-labels" for="LastName">
+				Last Name:
+			</label>
+			<input data-bind="value: LastName, valueUpdate: 'input'" type="text" class="form-control"
+name="LastName" placeholder="Last Name">
+			<span data-bind="validationMessage: LastName" class="field-validation-error" style="display: none"></span>
+		</span>
+	</div>
+	<div class="row">
+		<span class="col-xs-12 col-sm-4 col-sm-offset-2 pull-left input-wrap first">
+			<label class="ie-input-labels" for="PhoneNumber">
+				Phone Number:
+			</label>
+			<input data-bind="value: PhoneNumber, valueUpdate: 'input'" type="tel" class="form-control"
+			name="Phone" placeholder="Phone Number">
+			<span data-bind="validationMessage: PhoneNumber" class="field-validation-error" style="display: none"></span>
+		</span>
+		<span class="col-xs-12 col-sm-4 pull-left input-wrap first">
+			<label class="ie-input-labels" for="EmailAddress">
+				Work Email Address:
+			</label>
+			<input data-bind="value: EmailAddress, valueUpdate: 'input'" type="email" class="form-control"
+			name="Email" placeholder="Work Email Address">
+			<span data-bind="validationMessage: EmailAddress" class="field-validation-error" style="display: none"></span>
+		</span>
+	</div>
+	<div class="row">
+		<span class="col-xs-12 col-sm-8 col-sm-offset-2  pull-left input-wrap first">
+			<label class="ie-input-labels" for="CompanyName">
+				Company Name:
+			</label>
+			<input data-bind="value: CompanyName, valueUpdate: 'input'" type="text" class="form-control"
+				name="CompanyName" placeholder="Company Name">
+			<span data-bind="validationMessage: CompanyName" class="field-validation-error" style="display: none"></span>
+		</span>
+	</div>
+	<div class="row">
+		<button type="button" class="btn btn-large btn-lime col-xs-8 col-xs-offset-1 col-sm-4 col-sm-offset-4"
+		data-bind="css: { disabled: SubmitLoading }, disable: SubmitLoading, click: $component.indexRequestDemo">
+			Request Demo
+		</button>
+	</div>
+</form>
+
+</script>
+<script id="rd-lb-success-tmpl" type="text/html"><h3 class="lightbox-headline">
+	Thank you!
+</h3>
+<h3 class="lightbox-message">
+	A Tallie Expert will be in touch with you shortly.
+</h3>
+<div class="controls controls-row">
+	<button class="btn btn-large btn-cta span3" data-action="close-fancybox">
+		Close
+	</button>
+</div>
+</script>
+<script id="rd-lb-error-tmpl" type="text/html"><h3 class="lightbox-headline">Uh Oh, Something Went Wrong</h3>
+<p class="text-center">
+	Get in touch with our Support Team via email at
+	<a href="mailto:support@usetallie.com">
+		support@usetallie.com
+	</a> or call us directly at
+	<a href="tel:+1.888.874.1118 ">
+		+1.888.874.1118 
+	</a>
+</p></script>
+
+</body>
+</html>
+

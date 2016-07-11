@@ -347,7 +347,7 @@ figure {
     cursor: pointer;
     transition: all 150ms ease-in-out;
     text-transform: uppercase;
-    font-family: "Avenir-Black", "HelveticaNeue-Bold", "sans-serif"
+    font-family: "HelveticaNeue-Bold", "sans-serif"
 }
 
 .btn:focus, .btn:hover {
@@ -386,8 +386,8 @@ figure {
 }
 
 .btn.btn-dark:focus, .btn.btn-dark:hover {
-    background: #999999;
-    border-color: #999999;
+    background: #00a2d4;
+    border-color: #00a2d4;
     box-shadow: 0 0 0 0.2em rgba(51, 51, 51, 0.4)
 }
 
@@ -1841,7 +1841,7 @@ input[type="search"] {
 
 .offers .bang .bang-text .title {
     font-size: 4em;
-    font-family: "Avenir-Black", "HelveticaNeue-Bold", "sans-serif"
+    font-family: "HelveticaNeue-Bold", "sans-serif"
 }
 
 .offers .bang .bang-text .subtitle {
@@ -3050,7 +3050,7 @@ input[type="search"] {
 
 .recipe.show-content .recipe-header h1 {
     font-size: 3em;
-    font-family: "Avenir-Black", "HelveticaNeue-Bold", "sans-serif";
+    font-family: "HelveticaNeue-Bold", "sans-serif";
     line-height: 1.25em;
     margin: 0
 }
@@ -3796,7 +3796,7 @@ input[type="search"] {
         display: block;
         background-color: #00a2d4;
         color: white;
-        font-family: "Avenir-Black", "HelveticaNeue-Bold", "sans-serif";
+        font-family: "HelveticaNeue-Bold", "sans-serif";
         text-align: center;
         font-size: 4em;
         line-height: 1.5625em
