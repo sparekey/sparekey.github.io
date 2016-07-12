@@ -1420,7 +1420,7 @@ input[type="search"] {
     }
 	
 	.navbar, .testimonials, .site-footer, .the-pitch {
-		font-size: 0.75em;
+		font-size: 0.6em;
 	}
 	
 	.logo img { 
@@ -1428,7 +1428,7 @@ input[type="search"] {
 	}
 	
 	.screenshot-h { 
-		width: 300px;
+		width: 350px;
 	}
 	
     .header-hero .new_invite_request {
@@ -1437,7 +1437,7 @@ input[type="search"] {
 
     .header-hero .app-screenshot {
         position: absolute;
-        top: 15em;
+        top: 12em;
         right: 18%;
         display: block
     }
@@ -1469,20 +1469,20 @@ input[type="search"] {
     max-width: 72em
 }
 
-@media (min-width: 34em) {
+@media (min-width: 30em) {
     .header-hero {
-        height: 75vw;
+        height: 70vw;
     }
 	
 	.navbar, .testimonials, .site-footer, .the-pitch {
-		font-size: 1em;
+		font-size: 0.7em;
 	}
 	
 	.logo img { 
-		width: 40px;
+		width: 30px;
 	}
 	.screenshot-h { 
-		width: 400px;
+		width: 300px;
 	}
     .header-hero .new_invite_request {
         display: block
@@ -1490,8 +1490,8 @@ input[type="search"] {
 
     .header-hero .app-screenshot {
         position: absolute;
-        top: 10%;
-        right: 0%;
+        top: 15%;
+        right: 10%;
         display: block
     }
 
@@ -1518,22 +1518,76 @@ input[type="search"] {
     }
 }
 
-@media (min-width: 60em) {
+
+@media (min-width: 34em) {
     .header-hero {
-        height: 75vw
+        height: 58vw;
     }
 	
+	.navbar, .testimonials, .site-footer, .the-pitch {
+		font-size: 0.7em;
+	}
+	
 	.logo img { 
-		width: 45px;
+		width: 30px;
 	}
 	.screenshot-h { 
-		width: 500px;
+		width: 300px;
+	}
+    .header-hero .new_invite_request {
+        display: block
+    }
+
+    .header-hero .app-screenshot {
+        position: absolute;
+        top: 15%;
+        right: 10%;
+        display: block
+    }
+
+    .header-hero .app-screenshot .screenshot-h {
+        display: block
+    }
+
+    .header-hero .the-pitch {
+        float: left;
+        display: block;
+        margin-right: 0%;
+        width: 40%;
+        text-align: left;
+        padding-top: 10%;
+        padding-bottom: 0%
+    }
+
+    .header-hero .the-pitch:last-child {
+        margin-right: 0
+    }
+
+    .header-hero .new_invite_request {
+        display: block
+    }
+}
+
+@media (min-width: 52em) {
+    .header-hero {
+        height: 80vw
+    }
+	
+	.navbar, .testimonials, .site-footer, .the-pitch {
+		font-size: 1.2em;
+	}
+	
+	.logo img { 
+		width: 50px;
+	}
+	.screenshot-h { 
+		width: 600px;
 	}
 	
     .header-hero .app-screenshot {
         position: absolute;
         top: 20%;
-        right: 8%
+        right: 0%
     }
 
     .header-hero .app-screenshot .screenshot-v {
@@ -1557,8 +1611,12 @@ input[type="search"] {
 
 @media (min-width: 80em) {
     .header-hero {
-        height: 120vw
+        height: 70vw
     }
+	
+	.navbar, .testimonials, .site-footer, .the-pitch {
+		font-size: 1em;
+	}
 	
 	.logo img { 
 		width: 45px;
@@ -1574,7 +1632,7 @@ input[type="search"] {
     .header-hero .app-screenshot {
         position: absolute;
         top: 20%;
-        right: 8%
+        right: 10%
     }
 
     .header-hero .app-screenshot .screenshot-v {
@@ -1588,14 +1646,16 @@ input[type="search"] {
 
 
 @media (min-width: 100em) {
-    .header-hero{
-        height: 120vw;
+    .header-hero {
+        height: 70vw
     }
-    .navbar, .testimonials, .site-footer, .the-pitch {
+	
+	.navbar, .testimonials, .site-footer, .the-pitch {
 		font-size: 1.5em;
-    }
+	}
+	
 	.logo img { 
-		width: 75px;
+		width: 70px;
 	}
 	.screenshot-h { 
 		width: 800px;
@@ -1619,7 +1679,6 @@ input[type="search"] {
         display: block
     }
 }
-
 .testimonials {
     background: #ffffff;
     padding: 5em 1em
