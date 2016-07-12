@@ -1377,8 +1377,9 @@ input[type="search"] {
     display: block;
     margin-right: 2.35765%;
     width: 48.82117%;
+	min-width: 48em;
     font-family: "HelveticaNeue-Bold", "sans-serif";
-    font-size: 2em;
+    font-size: 3em;
     color: white;
     text-align: left
 }
@@ -1507,8 +1508,8 @@ input[type="search"] {
 
     .header-hero .app-screenshot {
         position: absolute;
-        top: 22%;
-        right: -27%;
+        top: 15%;
+        right: -10%;
         display: block
     }
 
@@ -1937,7 +1938,7 @@ input[type="search"] {
     font-family: "HelveticaNeue-Bold", "sans-serif";
     text-transform: uppercase;
     color: white;
-    font-size: 2em
+    font-size: 6em
 }
 
 @media (min-width: 48em) {
