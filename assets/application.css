@@ -1373,7 +1373,7 @@ input[type="search"] {
     display: none
 }
 
-@media (min-width: 60em) {
+@media (min-width: 32em) {
     .header-hero .container {
         padding: 0 2em
     }
@@ -1521,7 +1521,7 @@ input[type="search"] {
 
 @media (min-width: 34em) {
     .header-hero {
-        height: 58vw;
+        height: 57vw;
     }
 	
 	.navbar, .testimonials, .site-footer, .the-pitch {
@@ -1614,9 +1614,9 @@ input[type="search"] {
 }
 
 
-@media (min-width: 100em) {
+@media (min-width: 120em) {
     .header-hero {
-        height: 70vw
+        height: 150vw
     }
 	
 	.navbar, .testimonials, .site-footer, .the-pitch {
