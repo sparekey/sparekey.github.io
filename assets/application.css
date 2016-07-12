@@ -1416,7 +1416,7 @@ input[type="search"] {
 
 @media (min-width: 0em) {
     .header-hero {
-        max-height: 105vh
+        max-height: 100vh
     }
     .header-hero .new_invite_request {
         display: block
@@ -1436,11 +1436,11 @@ input[type="search"] {
     .header-hero .the-pitch {
         float: left;
         display: block;
-        margin-right: 2.35765%;
+        margin-right: 0%;
         width: 100%;
         text-align: left;
         padding-top: 10%;
-        padding-bottom: 0%
+        padding-bottom: 10%
     }
 
     .header-hero .the-pitch:last-child {
