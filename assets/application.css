@@ -1424,7 +1424,12 @@ input[type="search"] {
 	}
 	
 	.logo img { 
-		width: 30px;
+		width: 25px;
+	}
+	
+	.ios-store {
+		display: block;
+		width: 60px;
 	}
 	
 	.screenshot-h { 
@@ -1437,8 +1442,8 @@ input[type="search"] {
 
     .header-hero .app-screenshot {
         position: absolute;
-        top: 12em;
-        right: 18%;
+        top: 13em;
+        right: 15%;
         display: block
     }
 
@@ -1481,6 +1486,12 @@ input[type="search"] {
 	.logo img { 
 		width: 30px;
 	}
+	
+	.ios-store {
+		display: block;
+		width: 100px;
+	}
+	
 	.screenshot-h { 
 		width: 300px;
 	}
@@ -1531,6 +1542,12 @@ input[type="search"] {
 	.logo img { 
 		width: 30px;
 	}
+	
+	.ios-store {
+		display: block;
+		width: 120px;
+	}
+	
 	.screenshot-h { 
 		width: 300px;
 	}
@@ -1580,6 +1597,12 @@ input[type="search"] {
 	.logo img { 
 		width: 50px;
 	}
+	
+	.ios-store {
+		display: block;
+		width: 140px;
+	}
+	
 	.screenshot-h { 
 		width: 600px;
 	}
@@ -1626,6 +1649,12 @@ input[type="search"] {
 	.logo img { 
 		width: 70px;
 	}
+	
+	.ios-store {
+		display: block;
+		width: 240px;
+	}
+	
 	.screenshot-h { 
 		width: 800px;
 	}
@@ -2483,5 +2512,4 @@ input[type="search"] {
         margin-left: 6.25em
     }
 }
-
 
