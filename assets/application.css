@@ -1416,7 +1416,7 @@ input[type="search"] {
 
 @media (min-width: 0em) {
     .header-hero {
-        max-height: 100vh
+        max-height: 105vh
     }
     .header-hero .new_invite_request {
         display: block
