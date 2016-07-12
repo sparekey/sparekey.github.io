@@ -1584,6 +1584,10 @@ input[type="search"] {
 		width: 600px;
 	}
 	
+	.container {
+        position: relative
+    }
+	
     .header-hero .app-screenshot {
         position: absolute;
         top: 20%;
@@ -1606,41 +1610,6 @@ input[type="search"] {
 
     .header-hero .the-pitch:last-child {
         margin-right: 0
-    }
-}
-
-@media (min-width: 80em) {
-    .header-hero {
-        height: 70vw
-    }
-	
-	.navbar, .testimonials, .site-footer, .the-pitch {
-		font-size: 1em;
-	}
-	
-	.logo img { 
-		width: 45px;
-	}
-	.screenshot-h { 
-		width: 600px;
-	}
-	
-	.container {
-        position: relative
-    }
-
-    .header-hero .app-screenshot {
-        position: absolute;
-        top: 20%;
-        right: 10%
-    }
-
-    .header-hero .app-screenshot .screenshot-v {
-        display: block
-    }
-
-    .header-hero .app-screenshot .screenshot-h {
-        display: block
     }
 }
 
