@@ -1678,9 +1678,15 @@ input[type="search"] {
     }
 }
 .testimonials {
+    background: #f7f7f7;
+    padding: 5em 1em
+}
+
+.team {
     background: #ffffff;
     padding: 5em 1em
 }
+
 
 @media (min-width: 48em) {
     .testimonials {
@@ -1714,6 +1720,7 @@ input[type="search"] {
 
 .testimonial img {
     max-width: 20%;
+	text-align: left;
 }
 
 .testimonial figcaption {
