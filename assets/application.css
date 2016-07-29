@@ -1982,6 +1982,13 @@ input[type="search"] {
     }
 }
 
+.topnav {
+    background-color: #444444;
+    padding: 1em;
+    color: #ffffff;
+	text-align: center
+}
+
 .site-footer {
     background-color: #333333;
     padding: 1em;
