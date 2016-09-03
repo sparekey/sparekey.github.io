@@ -1795,6 +1795,7 @@ input[type="search"] {
 
 .screenshots .caption {
     display: none
+	  
 }
 
 .screenshots .slide-control label {
@@ -1802,8 +1803,9 @@ input[type="search"] {
     -moz-transition: all 400ms ease-in-out;
     transition: all 400ms ease-in-out;
     margin-bottom: 2em;
-    font-size: 1.125em;
-    color: rgba(0, 0, 0, 0.08);
+    font-size: 1.5em;
+	font-weight: bold;
+    color: #00a2d4;
     cursor: pointer
 }
 
